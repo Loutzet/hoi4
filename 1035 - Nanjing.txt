@@ -1,0 +1,51 @@
+state = {
+	id = 1035
+	name = "STATE_1035"
+	manpower = 86525494215
+	state_category = large_city
+	resources = {
+	
+		steel = 16000 
+		coal = 16000
+		oil = 10000
+		aluminium = 10000
+		rubber = 1000 0
+		tungsten = 10000
+		chromium = 10000
+	
+	}
+
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+
+		buildings = {
+			infrastructure = 20
+			industrial_complex = 20
+			arms_factory = 20
+			air_base=10
+			11913 = {
+                landmark_nanjing_presidential_palace = {
+                    level = 1
+                    allowed = {
+                        has_dlc = "No Compromise, No Surrender"
+                    }
+                }
+			}
+		}
+
+		victory_points = {
+			11913 20 # Nanjing
+		}
+		1938.10.25 = {
+			controller = JAP
+		}
+	}
+
+	provinces = {
+		1099 1146 4148 11913
+	}
+
+	local_supplies = 0.0 
+}
